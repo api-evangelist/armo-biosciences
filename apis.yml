@@ -1,25 +1,56 @@
 aid: armo-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/armo-biosciences.png
 name: ARMO BioSciences *
-description: 'ARMO BioSciences * is a company surfaced as a portfolio company of gv, kleiner-perkins and
-  added to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'ARMO BioSciences was a clinical-stage immuno-oncology biopharmaceutical company based in
+  Redwood City, California, developing biologic therapeutics that activate a patient''s own immune system
+  to fight cancer. Its lead candidate was pegilodecakin (AM0010), a PEGylated recombinant human interleukin-10
+  (IL-10) evaluated across solid tumors. Backed by GV and Kleiner Perkins, the company IPO''d on NASDAQ
+  in 2018 and was acquired by Eli Lilly and Company that same year for approximately $1.6 billion; its
+  former web domain now redirects to lilly.com. As a life-sciences therapeutics developer it exposes no
+  public developer API, SDK, or documentation surface. This profile is retained in the API Evangelist
+  network as a portfolio/acquisition record rather than an active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/armo-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 - kleiner-perkins
+x-acquired-by: eli-lilly
+x-acquired-year: '2018'
+x-status: acquired
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Immuno-Oncology
+- Pharmaceuticals
+- Cancer
+- Therapeutics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
