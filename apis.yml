@@ -65,3 +65,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/eli-lilly/
+  name: Eli Lilly
+  x-relationship: acquired
+  x-evidence: "Backed by GV and Kleiner Perkins, the company IPO'd on NASDAQ in 2018 and was acquired by Eli Lilly and Company that same year for approximately $1."
